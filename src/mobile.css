@@ -1,0 +1,18 @@
+
+@media (max-width: 900px) {
+.chip_grid{
+place-items: center;
+justify-content: center;
+
+}
+.more_text{
+    text-align: center !important;
+
+}
+
+.ab_title{
+    margin-top: 5% !important;
+    font-size: 1.4em !important;    
+}
+
+}
