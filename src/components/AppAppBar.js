@@ -149,7 +149,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 href="/material-ui/getting-started/templates/sign-in/"
                 target="_blank"
               >
-                Sign in
+                Contact
               </Button>
               <Button
                 color="primary"
@@ -192,17 +192,17 @@ function AppAppBar({ mode, toggleColorMode }) {
                     <ToggleColorMode mode={mode} toggleColorMode={toggleColorMode} />
                   </Box>
                   <MenuItem onClick={() => scrollToSection('features')}>
-                    Features
+                  Shop
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection('testimonials')}>
-                    Testimonials
+                    About us
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection('highlights')}>
-                    Highlights
+                    Contac us
                   </MenuItem>
-                  <MenuItem onClick={() => scrollToSection('pricing')}>
-                    Pricing
-                  </MenuItem>
+                  {/* <MenuItem onClick={() => scrollToSection('pricing')}>
+                    
+                  </MenuItem> */}
                   <MenuItem onClick={() => scrollToSection('faq')}>FAQ</MenuItem>
                   <Divider />
                   <MenuItem>
@@ -212,7 +212,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                       component="a"
                       href="/material-ui/getting-started/templates/sign-up/"
                       target="_blank"
-                      sx={{ width: '100%' }}
+                      sx={{ width: '100%', display:"none" }}
                     >
                       Sign up
                     </Button>
@@ -226,7 +226,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                       target="_blank"
                       sx={{ width: '100%' }}
                     >
-                      Sign in
+                      Contact us
                     </Button>
                   </MenuItem>
                 </Box>

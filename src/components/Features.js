@@ -26,24 +26,24 @@ const items = [
     icon: <ViewQuiltRoundedIcon />,
     title: 'Core values',
     description:
-      'This item could provide a snapshot of the most important metrics or data points related to the product.',
-      imageLight: `url(${Vision})`,
+    'Being proudly AfroGlobal is not only a fashion style, but its also about celebrating and embracing a global identity that embraces African cultural heritage and creativity and contribute to a more connected and positive world. Proudly',
+    imageLight: `url(${Vision})`,
       imageDark: `url(${Vision})`, // Use the imported image or URL directly    imageDark: imgLink,
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
     title: 'Vision',
     description:
-      'This item could provide information about the mobile app version of the product.',
-      imageLight: `url(${Mission})`,
+    'Being proudly AfroGlobal is not only a fashion style, but its also about celebrating and embracing a global identity that embraces African cultural heritage and creativity and contribute to a more connected and positive world. Proudly',
+    imageLight: `url(${Mission})`,
       imageDark: `url(${Mission})`, // Use the imported image or URL directly    imageDark: imgLink,
   },
   {
     icon: <DevicesRoundedIcon />,
     title: 'Mission',
     description:
-      'This item could let users know the product is available on all platforms, such as web, mobile, and desktop.',
-      imageLight: `url(${AfricanLady})`,
+    'Being proudly AfroGlobal is not only a fashion style, but its also about celebrating and embracing a global identity that embraces African cultural heritage and creativity and contribute to a more connected and positive world. Proudly',
+    imageLight: `url(${AfricanLady})`,
       imageDark: `url(${imgLink})`, // Use the imported image or URL directly    imageDark: imgLink,
   },
 ];

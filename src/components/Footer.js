@@ -7,13 +7,13 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-
+import Logo from "../media/ox_logo.png"
 import FacebookIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/X';
 
 const logoStyle = {
-  width: '140px',
+  width: '22%',
   height: 'auto',
 };
 
@@ -21,7 +21,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" mt={1}>
       {'Copyright © '}
-      <Link href="https://mui.com/">Sitemark&nbsp;</Link>
+      <Link href="https://mdixon.vercel.app/">Oxen Impact Designs &nbsp;</Link>
       {new Date().getFullYear()}
     </Typography>
   );
@@ -56,11 +56,9 @@ export default function Footer() {
           }}
         >
           <Box sx={{ width: { xs: '100%', sm: '60%' } }}>
-            <Box sx={{ ml: '-15px' }}>
+            <Box sx={{ ml: '-12px' }}>
               <img
-                src={
-                  'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e6faf73568658154dae_SitemarkDefault.svg'
-                }
+                src={Logo}
                 style={logoStyle}
                 alt="logo of sitemark"
               />
@@ -98,25 +96,26 @@ export default function Footer() {
             gap: 1,
           }}
         >
+
+          {/* //About us shop Contact Socials FAQ  */}
           <Typography variant="body2" fontWeight={600}>
-            Product
+            About us
           </Typography>
           <Link color="text.secondary" href="#">
-            Features
+            Shop
           </Link>
           <Link color="text.secondary" href="#">
-            Testimonials
+            Contact
           </Link>
           <Link color="text.secondary" href="#">
-            Highlights
-          </Link>
-          <Link color="text.secondary" href="#">
-            Pricing
+            Socials
           </Link>
           <Link color="text.secondary" href="#">
             FAQs
           </Link>
+         
         </Box>
+       
         <Box
           sx={{
             display: { xs: 'none', sm: 'flex' },
@@ -125,27 +124,7 @@ export default function Footer() {
           }}
         >
           <Typography variant="body2" fontWeight={600}>
-            Company
-          </Typography>
-          <Link color="text.secondary" href="#">
-            About us
-          </Link>
-          <Link color="text.secondary" href="#">
-            Careers
-          </Link>
-          <Link color="text.secondary" href="#">
-            Press
-          </Link>
-        </Box>
-        <Box
-          sx={{
-            display: { xs: 'none', sm: 'flex' },
-            flexDirection: 'column',
-            gap: 1,
-          }}
-        >
-          <Typography variant="body2" fontWeight={600}>
-            Legal
+            Return Policy
           </Typography>
           <Link color="text.secondary" href="#">
             Terms
@@ -167,8 +146,9 @@ export default function Footer() {
           borderTop: '1px solid',
           borderColor: 'divider',
         }}
+        className="footer"
       >
-        <div>
+        <div className=''>
           <Link color="text.secondary" href="#">
             Privacy Policy
           </Link>
@@ -185,7 +165,7 @@ export default function Footer() {
           justifyContent="left"
           spacing={1}
           useFlexGap
-          sx={{
+          sx={{marginTop:"20px",
             color: 'text.secondary',
           }}
         >
