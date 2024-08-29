@@ -5,7 +5,7 @@ export const brand = {
   50: '#F0F7FF',
   100: '#CEE5FD',
   200: '#9CCCFC',
-  300: '#55A6F6',
+  300: '#f99d1b',//blue//hovwe
   400: '#e19120',
   500: '#f99d1b',
   600: '#f99d1b',

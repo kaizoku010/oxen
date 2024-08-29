@@ -104,10 +104,10 @@ export default function Hero() {
 <div className='afroGlobalHolder'>
   <h2 className='ox_title'> AfroGlobal Styles</h2>
   <p className='ox_exp_text'>Being proudly AfroGlobal is not only a fashion style, but its also about celebrating and embracing a global identity that embraces African cultural heritage and creativity and contribute to a more connected and positive world. Proudly</p>
-<button
+<Button
 id="mdx"
 class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium btn MuiButton-colorPrimary css-1sf2tdl-MuiButtonBase-root-MuiButton-root">
-  Visit Shop</button>
+  Visit Shop</Button>
 </div>
 </div>
       </Container>
