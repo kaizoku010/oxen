@@ -87,8 +87,8 @@
     #mdx{
         width: 80% !important;
     margin-bottom: 2%;
-    background-color: rgb(249, 157, 27);
     border-radius: 20px;
+    border-style: none;
     align-self: center;
     }
 
@@ -96,7 +96,7 @@
     #mdx2{
         width: 80% !important;
     margin-bottom: 2%;
-    background-color: rgb(249, 157, 27);
+    color: white !important;
     border-radius: 20px;
     align-self: center;
     }
@@ -148,6 +148,7 @@ align-self: center;
 
 #mdx{
     width: 50%;
+    color: black !important;
 margin-bottom: 2%;
 align-self: center;
 }
