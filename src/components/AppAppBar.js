@@ -146,7 +146,6 @@ function AppAppBar({ mode, toggleColorMode }) {
                 variant="text"
                 size="small"
                 component="a"
-                href="/material-ui/getting-started/templates/sign-in/"
                 target="_blank"
               >
                 Contact
@@ -156,7 +155,6 @@ function AppAppBar({ mode, toggleColorMode }) {
                 variant="contained"
                 size="small"
                 component="a"
-                href="/material-ui/getting-started/templates/sign-up/"
                 target="_blank"
               >
                 Sign up
@@ -210,7 +208,6 @@ function AppAppBar({ mode, toggleColorMode }) {
                       color="primary"
                       variant="contained"
                       component="a"
-                      // href="/material-ui/getting-started/templates/sign-up/"
                       target="_blank"
                       sx={{ width: '100%', display:"none" }}
                     >
@@ -222,7 +219,6 @@ function AppAppBar({ mode, toggleColorMode }) {
                       color="primary"
                       variant="outlined"
                       component="a"
-                      // href="/material-ui/getting-started/templates/sign-in/"
                       target="_blank"
                       sx={{ width: '100%' }}
                     >
