@@ -147,8 +147,16 @@ align-self: center;
 }
 
 #mdx{
-    width: 50%;
+    width: 80%;
     color: black !important;
 margin-bottom: 2%;
+align-self: center;
+}
+
+#mdx2{
+    width: 80% !important;
+margin-bottom: 2%;
+color: white !important;
+border-radius: 20px;
 align-self: center;
 }
